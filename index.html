@@ -79,8 +79,12 @@
           </div>
           </div>
           <div class="comment">
-            <h4>Log Your Comment</h4>
+            <h4>Log Your Comment!</h4>
             <form action="submit.php" method="POST">
+              <div>
+                <label id="name">Artist Name</label>
+                <input type="text" name="name" required>
+              </div>
               <label id="name" for="name">Name:</label>
               <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
         
@@ -90,8 +94,44 @@
               <button class="submit" type="submit">Submit</button>
             </form>
           </div>
-          <div class="addArtist">
+        
+         <div class="addArtist">
+            <h2>Add Your Favourite Artist</h2>
+            
+            <form class="myrecentconcert" action="" method="post">
+              <div class="myartist-name">
+                <label for="name">Enter Artist Name</label>
+                <input type="text" name="name" id="name" required>
+              </div>
 
+              <div class="mygenre">
+                <label for="genre">Enter Artist Genre</label>
+                <input type="text" name="genre" id="name" required>
+              </div>
+
+              <div class="myimageurl">
+                <label for="imageurl">Enter Image URL</label>
+                <input type="text" name="imageurl" id="name" required>
+              </div>
+
+              <div class="artistLocation">
+                <label for="artistLocation">Enter Artist Location</label>
+                <input type="text" name="artistLocation" id="name" required>
+              </div>
+
+              <div class="upcomingConcerts">
+                <label for="upcomingConcerts">Upcoming Concerts</label>
+                <input type="datetime-local">
+              </div>
+
+              <div class="recentConcerts">
+                <label for="recentConcerts">Recent Concerts</label>
+                <input type="datetime-local">
+              </div>
+              <div id="submitbutton">
+                <button class="submitbutton" type="submit">Submit</button>
+              </div>  
+            </form>
           </div>
 
           <div class="partner">
