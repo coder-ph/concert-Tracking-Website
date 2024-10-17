@@ -41,6 +41,8 @@ searchButton.addEventListener('submit', function(e){
 
         let description = document.querySelector('#description')
         let artistPoster = document.querySelector('img#poster')
+        let artistName =document.querySelector('.artist-name')
+        
         
         let recentEventsTitle = document.querySelector('.recentConcerts')
 
@@ -48,7 +50,6 @@ searchButton.addEventListener('submit', function(e){
         description.innerHTML = ''
         recentEventsTitle.innerHTML = ''
 
-        
         let upcomingEvents = document.createElement('h3')
         upcomingEvents.textContent = 'Upcoming Events:'
         description.appendChild(upcomingEvents)
@@ -64,6 +65,7 @@ searchButton.addEventListener('submit', function(e){
 
         data.forEach(artist => {
             if(artist.name.toLowerCase() === searchValue){
+                artistName.querySelector('h2').textContent=artist.name
                 
                 artist.upcoming_concerts.forEach(concert => {
                     let listItem = document.createElement('li')
@@ -71,12 +73,14 @@ searchButton.addEventListener('submit', function(e){
                     listItem.textContent = concert
                     artistPoster.src = artist.image_url
                     eventList.appendChild(listItem) 
+                    
                 })
                 artist.recent_concerts.forEach(events => {
                     let pastEventItem = document.createElement('li')
                     pastEventItem.style.padding ='15px'
                     pastEventItem.textContent = events
                     pasteventlist.appendChild(pastEventItem)
+                    
 
                 })
             }

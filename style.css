@@ -114,7 +114,7 @@ body{
 }
 .artist-card{
     padding-left: 50px;
-    padding-top: 100px;
+    padding-top: 45px;
     display: inline-flex;
     gap: 100px;
     padding-bottom: 20px;
@@ -131,7 +131,8 @@ img.artist-image{
 }
 
 #description{
-    padding-right: 10px;
+    padding-right: 5px;
+    padding-top: 90px;
 }
 
 #description h3{
@@ -171,7 +172,8 @@ img.artist-image{
 .form{
     position: absolute;
     left:-1200px;
-    top: 740px;
+    top: 760px;
+    padding: 8px;
 }
 .form button, input{
     border-radius: 7px;
@@ -198,12 +200,14 @@ img.artist-image{
 
 .comment{
     position: absolute;
-    left: 700px;
+    left: 1300px;
     top: 1000px;
-    
-
 }
-
+.comment #name{
+    color:whitesmoke;
+    font-size: 25px;
+    font-weight: bold;
+}
 .comment h4{
     
     color: white;
@@ -222,7 +226,7 @@ img.artist-image{
 
 .comment .submit{
     position: absolute;
-    top: 300px;
+    top: 330px;
     left: 190px;
     border-radius: +5px;
     padding: 10px;
@@ -231,7 +235,8 @@ img.artist-image{
 }
 .artist-name h2{
     position: absolute;
-    left: 250px;
+    left: 1100px;
+    top: 40px;
     color: white;
     font-size: 45px;
     font-weight: bold;
