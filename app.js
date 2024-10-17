@@ -87,4 +87,40 @@ document.addEventListener('DOMContentLoaded', function() {
             })
         })
     })
+    const submitButton = document.querySelector('.myrecentconcert')
+    submitButton.addEventListener('submit', handleSubmit)
+
+    function handleSubmit(e) {
+        e.preventDefault()
+
+        const artistObj={
+            name:e.target.querySelector('.myartistName').value,
+            genre: e.target.querySelector(".mygenre").value,
+            image_url: e.target.querySelector(".myimageurl").value,
+            location: e.target.querySelector(".artistLocation").value,
+            upcoming_concerts: [e.target.querySelector(".upcomingConcerts").value],
+            recent_concerts:[e.target.querySelector(".recentConcerts").value]
+        } 
+        postMyArtist(artistObj)
+    }
+
+    function postMyArtist(artistObj) {
+        fetch("http://localhost:3000/artists", {
+            method: 'POST',
+            headers:{
+                'content-type': 'application/json' 
+            },
+            body: JSON.stringify(artistObj)
+        })
+        .then((response)=> response.json())
+        .then((data)=> alert('Your data has been received and we are verifying the availability of the event'))
+        .catch((error) => console.error('Error',error))
+    }
+
+    
+    
+    //handle post
+    
+
+
 })
