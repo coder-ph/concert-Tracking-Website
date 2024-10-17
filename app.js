@@ -31,60 +31,60 @@ document.addEventListener('DOMContentLoaded', function() {
 
     let searchButton = document.querySelector('.form')
 
-searchButton.addEventListener('submit', function(e){
-    e.preventDefault()
-    const searchValue = e.target.search.value.toLowerCase()
+    searchButton.addEventListener('submit', function(e){
+        e.preventDefault()
+        const searchValue = e.target.search.value.toLowerCase()
 
-    fetch("http://localhost:3000/artists")
-    .then((response)=> response.json())
-    .then((data)=>{
+        fetch("http://localhost:3000/artists")
+        .then((response)=> response.json())
+        .then((data)=>{
 
-        let description = document.querySelector('#description')
-        let artistPoster = document.querySelector('img#poster')
-        let artistName =document.querySelector('.artist-name')
-        
-        
-        let recentEventsTitle = document.querySelector('.recentConcerts')
+            let description = document.querySelector('#description')
+            let artistPoster = document.querySelector('img#poster')
+            let artistName =document.querySelector('.artist-name')
+            
+            
+            let recentEventsTitle = document.querySelector('.recentConcerts')
 
-        
-        description.innerHTML = ''
-        recentEventsTitle.innerHTML = ''
+            
+            description.innerHTML = ''
+            recentEventsTitle.innerHTML = ''
 
-        let upcomingEvents = document.createElement('h3')
-        upcomingEvents.textContent = 'Upcoming Events:'
-        description.appendChild(upcomingEvents)
-        let eventList = document.createElement('ul')
-        description.appendChild(eventList) 
+            let upcomingEvents = document.createElement('h3')
+            upcomingEvents.textContent = 'Upcoming Events:'
+            description.appendChild(upcomingEvents)
+            let eventList = document.createElement('ul')
+            description.appendChild(eventList) 
 
-        let recentEvents = document.createElement('h3')
-        recentEvents.textContent = 'Past Events:'
-        recentEventsTitle.appendChild(recentEvents)
-        let pasteventlist = document.createElement('ul')
-        recentEventsTitle.appendChild(pasteventlist)
-        
+            let recentEvents = document.createElement('h3')
+            recentEvents.textContent = 'Past Events:'
+            recentEventsTitle.appendChild(recentEvents)
+            let pasteventlist = document.createElement('ul')
+            recentEventsTitle.appendChild(pasteventlist)
+            
 
-        data.forEach(artist => {
-            if(artist.name.toLowerCase() === searchValue){
-                artistName.querySelector('h2').textContent=artist.name
-                
-                artist.upcoming_concerts.forEach(concert => {
-                    let listItem = document.createElement('li')
-                    listItem.style.padding = '15px'
-                    listItem.textContent = concert
-                    artistPoster.src = artist.image_url
-                    eventList.appendChild(listItem) 
+            data.forEach(artist => {
+                if(artist.name.toLowerCase() === searchValue){
+                    artistName.querySelector('h2').textContent=artist.name
                     
-                })
-                artist.recent_concerts.forEach(events => {
-                    let pastEventItem = document.createElement('li')
-                    pastEventItem.style.padding ='15px'
-                    pastEventItem.textContent = events
-                    pasteventlist.appendChild(pastEventItem)
-                    
+                    artist.upcoming_concerts.forEach(concert => {
+                        let listItem = document.createElement('li')
+                        listItem.style.padding = '15px'
+                        listItem.textContent = concert
+                        artistPoster.src = artist.image_url
+                        eventList.appendChild(listItem) 
+                        
+                    })
+                    artist.recent_concerts.forEach(events => {
+                        let pastEventItem = document.createElement('li')
+                        pastEventItem.style.padding ='15px'
+                        pastEventItem.textContent = events
+                        pasteventlist.appendChild(pastEventItem)
+                        
 
-                })
-            }
+                    })
+                }
+            })
         })
     })
-})
 })
