@@ -1,0 +1,274 @@
+*{
+    border: none;
+    font-family: optima;
+    
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+.navbar{
+    
+    background: black;
+    max-width: 100%;
+    justify-content: center;
+    position: sticky;
+}
+
+body{
+    background-color:#05735c ; 
+
+}
+
+.nav-link{
+    color: white;
+    font-size: 15px;
+    font-family: Helvetica;
+    font-weight: bold;
+    padding-top: 25px;
+    transition: 1s;
+    
+}
+.nav-item{
+    list-style: none;
+}
+.nav-link:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.logo{
+    position: absolute;
+    top: 0px;
+    left: 125px;
+}
+
+.outer{
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+}
+.headline{
+    flex: 1;
+    padding-left: 50px;
+    padding-top: 40px;
+    max-width: 70%;
+    align-items: center;
+}
+
+.headline h4{
+    position: absolute;
+    top: 190px;
+    padding-left: 5%;
+    color: white;
+    font-size: 20px;
+    padding-bottom: 40px;
+    font-family: optima;
+}
+
+.headline h1{
+    position: absolute;
+    width: 750px;
+    top: 285px;
+    color: white;
+    padding-top: 5px;
+    font-family: optima;
+    font-weight: bolder;
+    font-size: 65px;
+    padding-bottom: 40px;
+    padding-left: 4%;
+}
+
+.Concertimage{
+    
+    background: #126351;
+    position: absolute;
+    top: 205px;
+    left: 950px;
+}
+
+.Concertimage img {
+    flex: 0.5;
+    text-align: right;
+    color: transparent;
+    border-style: solid;
+    margin-top: 45px;
+    padding-bottom: 10px;
+    padding-right: 0px;
+    padding-bottom: 35px;
+    
+}
+
+.filter-section{
+    padding-left: 0px;
+    padding-top: 10px;
+    
+}
+
+#card{
+    position: absolute;
+    top: 820px;
+    height: 100%;
+    background: black;
+    width: 100%;
+    border-radius: 5% 5% 0 0;
+}
+.artist-card{
+    padding-left: 50px;
+    padding-top: 100px;
+    display: inline-flex;
+    gap: 100px;
+    padding-bottom: 20px;
+    width: 100%;
+    border-radius: 5% 5% 0 0;
+}
+.aimage{
+    padding-left: 80px;
+    
+}
+
+img.artist-image{
+    border-radius: 25px 25px 25px 25px;
+}
+
+#description{
+    padding-right: 10px;
+}
+
+#description h3{
+    color: white;
+    text-align: center;
+    font-family: optima;
+    font-size: 55px;
+    font-weight: bold;
+}    
+
+#description p{
+    color: white;
+    text-align: justify;
+    font-family: helvetica;
+    font-size: 35px;
+    text-wrap: balance;
+
+}
+
+.filter-section{
+    position: absolute;
+    top: 15px;
+    left: 1400px;
+}
+.filter-section h3{
+    color: white;
+    font-family: optima;
+    font-weight: bold;
+}
+
+
+.filter-section label{
+    color: white;
+    font-weight: bold;
+}
+
+.form{
+    position: absolute;
+    left:-1200px;
+    top: 740px;
+}
+.form button, input{
+    border-radius: 7px;
+    font-weight: bold;
+}
+
+.filter-section select{
+    border-radius: 7px;
+    font-weight: bold;
+}
+
+.purchase-ticket{
+    position: absolute;
+    margin-top: 295px;
+    border-radius: 15px;
+    padding: 5px;
+    font-family: helvetica;
+    font-weight: bold;
+}
+
+.recent-concerts{
+    padding-top: 20px;
+}
+
+.comment{
+    position: absolute;
+    left: 700px;
+    top: 1000px;
+    
+
+}
+
+.comment h4{
+    
+    color: white;
+    font-family: optima;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.comment #comment{
+    position: absolute;
+    left: 0px;
+    border-radius: 5px;
+    padding: 25px;
+    width: 500px;
+}
+
+.comment .submit{
+    position: absolute;
+    top: 300px;
+    left: 190px;
+    border-radius: +5px;
+    padding: 10px;
+    width: 100px;
+    
+}
+.artist-name h2{
+    position: absolute;
+    left: 250px;
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.partner{
+    position: absolute;
+    left:  1000px;
+    top: 500px;
+    width: 620px;
+}
+
+.partner h1{
+    color: white;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.partner p, li{
+    color: white;
+    font-size: 19px;
+}
+
+.partner p,li{
+    color: white;
+    list-style-image: url('images/Pasted image.png') ;
+}
+
+.footer{
+    position: absolute;
+    bottom: -1400px;
+    display: inline-flex;
+}
+
+.footer li{
+    display: inline-block;
+    justify-content: space-between;
+    text-align: center;
+}
+
