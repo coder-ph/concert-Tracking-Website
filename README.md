@@ -73,3 +73,13 @@ Here's an example of the artist data structure used in the application:
 ├── db.json             # JSON data for simulating the backend
 └── README.md           # Project documentation
 ```
+## Future Improvements
+- Search Functionality: Add search functionality to filter concerts or artists by location, or date.
+- Ticket Booking System: Implement a feature for users to book tickets for upcoming concerts.
+- Artist Profiles: Add detailed artist profiles with a history of concerts and more in-depth information.
+
+## Contributing
+If you'd like to contribute to this project, feel free to fork the repository and submit a pull request. You can also open an issue for any bugs or feature requests.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for more details.
