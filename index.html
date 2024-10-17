@@ -80,23 +80,26 @@
           </div>
           <div class="comment">
             <h4>Log Your Comment!</h4>
-            <form action="submit.php" method="POST">
+            <form class="commentHandler" action="submit" method="POST">
               <div>
                 <label id="name">Artist Name</label>
-                <input type="text" name="name" required>
-              </div>
+                <input class="artistNameComment" type="text" name="name" required>
+              </div class="Commentname">
               <label id="name" for="name">Name:</label>
-              <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+              <input type="text" id="Commentname" name="name" placeholder="Enter your name" required><br><br>
         
               <label for="comment">Comment:</label>
               <textarea id="comment" name="comment" rows="5" cols="50" placeholder="Log in your comment here!!" required></textarea><br><br>
         
               <button class="submit" type="submit">Submit</button>
             </form>
+            <div class="commentLog">
+              <h2>comments</h2>
+            </div>
           </div>
         
          <div class="addArtist">
-            <h2>Add Your Favourite Artist</h2>
+            <h2>Add Your Favourite Concert Details</h2>
             
             <form class="myrecentconcert" action="" method="post">
               <div >
@@ -115,7 +118,7 @@
               </div>
 
               <div>
-                <label for="artistLocation">Enter Artist Location</label>
+                <label for="artistLocation">Enter Location</label>
                 <input class="artistLocation" type="text" name="artistLocation" id="name" required>
               </div>
 
@@ -127,6 +130,10 @@
               <div>
                 <label for="recentConcerts">Recent Concerts</label>
                 <input class="recentConcerts" type="datetime-local">
+              </div>
+              <div class="rating">
+                <label for="ratings">Artist Rating</label>
+                <input class="rating" type="number">
               </div>
               <div id="submitbutton">
                 <button class="submitbutton" type="submit">Submit</button>
