@@ -17,9 +17,9 @@ This Music Concert Application allows users to view and manage concerts of inter
 ## Prerequisites
 - Ensure you have Node.js installed.
 - Install JSON Server globally using the following command:
-       ```
-       npm install -g json-server
-       ```
+```
+    npm install -g json-server
+```
 ### Setup
 ```
     git clone https://github.com/your-username/music-concert-app.git
@@ -27,4 +27,11 @@ This Music Concert Application allows users to view and manage concerts of inter
 
 ```
 ### Install Dependencies: If there are any dependencies, install them using:
-
+```
+    npm install
+```    
+### Start JSON Server: Run the following command to start the JSON server:
+```
+json-server --watch db.json
+```
+### Run the Application: `Open index.html` in your browser to view the application.
