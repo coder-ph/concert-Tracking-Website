@@ -1,158 +1,178 @@
 {
-    "artists": [
-      {
-        "id": 1,
-        "name": "Central Cee",
-        "genre": "UK Drill",
-        "image_url": "https://i.pinimg.com/564x/3f/f8/91/3ff891fc3f6ae6bbb6c5be1a0048a781.jpg",
-        "location": "UK",
-        "upcoming_concerts": [
-          "London, UK - 2024-11-20 - $75",
-          "Paris, France - 2024-12-15 - $80",
-          "Berlin, Germany - 2025-01-05 - $85"
-        ],
-        "recent_concerts": [
-          "Manchester, UK - 2024-09-30",
-          "Berlin, Germany - 2024-10-05",
-          "Leeds, UK - 2024-08-22"
-        ]
-      },
-      {
-        "id": 4,
-        "name": "ArrDee",
-        "genre": "UK Drill",
-        "image_url": "https://i.pinimg.com/564x/31/ff/43/31ff4363c9200858daa9e844263cf520.jpg",
-        "location": "UK",
-        "upcoming_concerts": [
-          "Bristol, UK - 2024-11-05 - $65",
-          "Milan, Italy - 2024-12-01 - $70",
-          "Lisbon, Portugal - 2025-01-20 - $75"
-        ],
-        "recent_concerts": [
-          "Sheffield, UK - 2024-09-15",
-          "Paris, France - 2024-09-29",
-          "Brighton, UK - 2024-08-12"
-        ]
-      },
-      {
-        "id": 5,
-        "name": "Pop Smoke",
-        "genre": "UK Drill",
-        "image_url": "https://i.pinimg.com/564x/b7/02/d7/b702d72c753baa50fd7b72e3e3532f55.jpg",
-        "location": "USA",
-        "upcoming_concerts": [
-          "Bristol, UK - 2024-11-05 - $65",
-          "Rome, Italy - 2024-12-10 - $100",
-          "Dublin, Ireland - 2024-10-01"
-        ],
-        "recent_concerts": [
-          "Los Angeles, USA - 2020-01-25",
-          "Miami, USA - 2020-02-10",
-          "New York, USA - 2020-02-01"
-        ]
-      },
-      {
-        "id": 6,
-        "name": "SZA",
-        "genre": "R&B",
-        "image_url": "https://i.pinimg.com/564x/88/93/03/88930383eefb0beb77fef6692b140f69.jpg",
-        "location": "USA",
-        "upcoming_concerts": [
-          "Los Angeles, USA - 2024-12-05 - $120",
-          "Houston, USA - 2024-12-20 - $110",
-          "Dallas, USA - 2025-01-15 - $115"
-        ],
-        "recent_concerts": [
-          "Chicago, USA - 2024-09-10",
-          "Atlanta, USA - 2024-09-28",
-          "Miami, USA - 2024-08-30"
-        ]
-      },
-      {
-        "id": 8,
-        "name": "Chris Brown",
-        "genre": "R&B",
-        "image_url": "https://i.pinimg.com/564x/47/13/91/47139124a9eeb9dbe88e730482ccae21.jpg",
-        "location": "USA",
-        "upcoming_concerts": [
-          "Miami, USA - 2024-11-25 - $150",
-          "London, UK - 2024-12-15 - $140",
-          "Paris, France - 2025-01-05 - $160"
-        ],
-        "recent_concerts": [
-          "Toronto, Canada - 2024-09-12",
-          "Los Angeles, USA - 2024-09-30",
-          "Chicago, USA - 2024-08-25"
-        ]
-      },
-      {
-        "id": 11,
-        "name": "Cardi B",
-        "genre": "Hip Hop",
-        "image_url": "https://i.pinimg.com/564x/79/70/ef/7970efb388e41c31b2ae83f020d6b950.jpg",
-        "location": "USA",
-        "upcoming_concerts": [
-          "Los Angeles, USA - 2024-12-10 - $150",
-          "Miami, USA - 2024-12-20 - $155",
-          "Houston, USA - 2025-01-15 - $160"
-        ],
-        "recent_concerts": [
-          "Chicago, USA - 2024-09-05",
-          "New York, USA - 2024-09-18",
-          "Atlanta, USA - 2024-08-28"
-        ]
-      },
-      {
-        "id": 12,
-        "name": "J. Cole",
-        "genre": "Hip Hop",
-        "image_url": "https://i.pinimg.com/564x/ea/7f/c9/ea7fc97e1fd3162c36bc04456352951b.jpg",
-        "location": "USA",
-        "upcoming_concerts": [
-          "Los Angeles, USA - 2024-12-12 - $150",
-          "New York, USA - 2024-12-28 - $155",
-          "Toronto, Canada - 2025-01-12 - $160"
-        ],
-        "recent_concerts": [
-          "Chicago, USA - 2024-09-15",
-          "Miami, USA - 2024-10-01",
-          "Los Angeles, USA - 2024-08-27"
-        ]
-      },
-      {
-        "id": 13,
-        "name": "Kendrick Lamar",
-        "genre": "Hip Hop",
-        "image_url": "https://i.pinimg.com/564x/25/68/cd/2568cd44a5b29ff2c618ca136b456b06.jpg",
-        "location": "USA",
-        "upcoming_concerts": [
-          "Atlanta, USA - 2024-11-20 - $180",
-          "Las Vegas, USA - 2024-12-15 - $175",
-          "Toronto, Canada - 2025-01-25 - $185"
-        ],
-        "recent_concerts": [
-          "Chicago, USA - 2024-09-25",
-          "Los Angeles, USA - 2024-10-09",
-          "Miami, USA - 2024-08-30"
-        ]
-      },
-      {
-        "id": 14,
-        "name": "H.E.R.",
-        "genre": "R&B",
-        "image_url": "https://i.pinimg.com/564x/99/bb/9c/99bb9c65704a3a18969de6db4f88c60e.jpg",
-        "location": "South Africa",
-        "upcoming_concerts": [
-          "San Francisco, USA - 2024-11-18 - $130",
-          "New York, USA - 2024-12-02 - $135",
-          "Los Angeles, USA - 2025-01-10 - $140"
-        ],
-        "recent_concerts": [
-          "Chicago, USA - 2024-09-28",
-          "Miami, USA - 2024-09-10",
-          "Atlanta, USA - 2024-08-25"
-        ]
-      }
-    ]
-  }
-  
+  "artists": [
+    {
+      "id": 1,
+      "name": "Central Cee",
+      "genre": "UK Drill",
+      "image_url": "https://i.pinimg.com/564x/3f/f8/91/3ff891fc3f6ae6bbb6c5be1a0048a781.jpg",
+      "location": "UK",
+      "upcoming_concerts": [
+        "London, UK - 2024-11-20 - $75",
+        "Paris, France - 2024-12-15 - $80",
+        "Berlin, Germany - 2025-01-05 - $85"
+      ],
+      "recent_concerts": [
+        "Manchester, UK - 2024-09-30",
+        "Berlin, Germany - 2024-10-05",
+        "Leeds, UK - 2024-08-22"
+      ],
+      "rating": 9
+    },
+    {
+      "id": 4,
+      "name": "ArrDee",
+      "genre": "UK Drill",
+      "image_url": "https://i.pinimg.com/564x/31/ff/43/31ff4363c9200858daa9e844263cf520.jpg",
+      "location": "UK",
+      "upcoming_concerts": [
+        "Bristol, UK - 2024-11-05 - $65",
+        "Milan, Italy - 2024-12-01 - $70",
+        "Lisbon, Portugal - 2025-01-20 - $75"
+      ],
+      "recent_concerts": [
+        "Sheffield, UK - 2024-09-15",
+        "Paris, France - 2024-09-29",
+        "Brighton, UK - 2024-08-12"
+      ],
+      "rating": 7
+    },
+    {
+      "id": 5,
+      "name": "Pop Smoke",
+      "genre": "UK Drill",
+      "image_url": "https://i.pinimg.com/564x/b7/02/d7/b702d72c753baa50fd7b72e3e3532f55.jpg",
+      "location": "USA",
+      "upcoming_concerts": [
+        "Bristol, UK - 2024-11-05 - $65",
+        "Rome, Italy - 2024-12-10 - $100",
+        "Dublin, Ireland - 2024-10-01"
+      ],
+      "recent_concerts": [
+        "Los Angeles, USA - 2020-01-25",
+        "Miami, USA - 2020-02-10",
+        "New York, USA - 2020-02-01"
+      ],
+      "rating": 8
+    },
+    {
+      "id": 6,
+      "name": "SZA",
+      "genre": "R&B",
+      "image_url": "https://i.pinimg.com/564x/88/93/03/88930383eefb0beb77fef6692b140f69.jpg",
+      "location": "USA",
+      "upcoming_concerts": [
+        "Los Angeles, USA - 2024-12-05 - $120",
+        "Houston, USA - 2024-12-20 - $110",
+        "Dallas, USA - 2025-01-15 - $115"
+      ],
+      "recent_concerts": [
+        "Chicago, USA - 2024-09-10",
+        "Atlanta, USA - 2024-09-28",
+        "Miami, USA - 2024-08-30"
+      ],
+      "rating": 7
+    },
+    {
+      "id": 8,
+      "name": "Chris Brown",
+      "genre": "R&B",
+      "image_url": "https://i.pinimg.com/564x/47/13/91/47139124a9eeb9dbe88e730482ccae21.jpg",
+      "location": "USA",
+      "upcoming_concerts": [
+        "Miami, USA - 2024-11-25 - $150",
+        "London, UK - 2024-12-15 - $140",
+        "Paris, France - 2025-01-05 - $160"
+      ],
+      "recent_concerts": [
+        "Toronto, Canada - 2024-09-12",
+        "Los Angeles, USA - 2024-09-30",
+        "Chicago, USA - 2024-08-25"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Cardi B",
+      "genre": "Hip Hop",
+      "image_url": "https://i.pinimg.com/564x/79/70/ef/7970efb388e41c31b2ae83f020d6b950.jpg",
+      "location": "USA",
+      "upcoming_concerts": [
+        "Los Angeles, USA - 2024-12-10 - $150",
+        "Miami, USA - 2024-12-20 - $155",
+        "Houston, USA - 2025-01-15 - $160"
+      ],
+      "recent_concerts": [
+        "Chicago, USA - 2024-09-05",
+        "New York, USA - 2024-09-18",
+        "Atlanta, USA - 2024-08-28"
+      ],
+      "rating": 7
+    },
+    {
+      "id": 12,
+      "name": "J. Cole",
+      "genre": "Hip Hop",
+      "image_url": "https://i.pinimg.com/564x/ea/7f/c9/ea7fc97e1fd3162c36bc04456352951b.jpg",
+      "location": "USA",
+      "upcoming_concerts": [
+        "Los Angeles, USA - 2024-12-12 - $150",
+        "New York, USA - 2024-12-28 - $155",
+        "Toronto, Canada - 2025-01-12 - $160"
+      ],
+      "recent_concerts": [
+        "Chicago, USA - 2024-09-15",
+        "Miami, USA - 2024-10-01",
+        "Los Angeles, USA - 2024-08-27"
+      ],
+      "rating": 7.5
+    },
+    {
+      "id": 13,
+      "name": "Kendrick Lamar",
+      "genre": "Hip Hop",
+      "image_url": "https://i.pinimg.com/564x/25/68/cd/2568cd44a5b29ff2c618ca136b456b06.jpg",
+      "location": "USA",
+      "upcoming_concerts": [
+        "Atlanta, USA - 2024-11-20 - $180",
+        "Las Vegas, USA - 2024-12-15 - $175",
+        "Toronto, Canada - 2025-01-25 - $185"
+      ],
+      "recent_concerts": [
+        "Chicago, USA - 2024-09-25",
+        "Los Angeles, USA - 2024-10-09",
+        "Miami, USA - 2024-08-30"
+      ],
+      "rating": 7
+    },
+    {
+      "id": 14,
+      "name": "H.E.R.",
+      "genre": "R&B",
+      "image_url": "https://i.pinimg.com/564x/99/bb/9c/99bb9c65704a3a18969de6db4f88c60e.jpg",
+      "location": "South Africa",
+      "upcoming_concerts": [
+        "San Francisco, USA - 2024-11-18 - $130",
+        "New York, USA - 2024-12-02 - $135",
+        "Los Angeles, USA - 2025-01-10 - $140"
+      ],
+      "recent_concerts": [
+        "Chicago, USA - 2024-09-28",
+        "Miami, USA - 2024-09-10",
+        "Atlanta, USA - 2024-08-25"
+      ],
+      "rating": 9
+    },
+    {
+      "id": "fa5f",
+      "name": "phelix",
+      "genre": "sss",
+      "image_url": "https://gemini.google.com/app/1a1ac07c705d042b",
+      "location": "a",
+      "upcoming_concerts": [
+        "2024-10-17T17:21"
+      ],
+      "recent_concerts": [
+        "2024-10-17T17:22"
+      ]
+    }
+  ]
+}
