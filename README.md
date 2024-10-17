@@ -20,7 +20,7 @@ This Music Concert Application allows users to view and manage concerts of inter
 ```
     npm install -g json-server
 ```
-### Setup
+## Setup
 ```
     git clone https://github.com/your-username/music-concert-app.git
     cd music-concert-app
@@ -35,3 +35,41 @@ This Music Concert Application allows users to view and manage concerts of inter
 json-server --watch db.json
 ```
 ### Run the Application: `Open index.html` in your browser to view the application.
+
+## Usage
+- On the homepage, select a genre to view a list of artists.
+- Clicking an artist dynamically updates the concert information, displaying recent and upcoming concerts along with the artist's image.
+- To add a new artist, fill out the form with details like artist name, genre, image URL, location, and concert dates.
+- Upon submission, the artist is added to the list and can be viewed with the newly entered details.
+
+## API Endpoints
+The application uses a JSON server to simulate the backend. Here are the key endpoints:
+
+- GET /artists: Retrieves the list of artists.
+- POST /artists: Adds a new artist to the database.
+- PUT /artists/{id}: Updates artist details.
+- DELETE /artists/{id}: Deletes an artist from the database.
+
+## Sample JSON Structure
+Here's an example of the artist data structure used in the application:
+
+```
+{
+  "id": 1,
+  "name": "Central Cee",
+  "genre": "UK Drill",
+  "image_url": "https://example.com/central-cee.jpg",
+  "location": "London",
+  "upcoming_concerts": "2024-12-25T19:00:00",
+  "recent_concerts": "2023-11-05T20:00:00"
+  "rating": 7
+}
+```
+## Project Structure
+```
+├── index.html          # Main HTML file
+├── styles.css          # Stylesheet for the application
+├── app.js              # Main JavaScript logic
+├── db.json             # JSON data for simulating the backend
+└── README.md           # Project documentation
+```
