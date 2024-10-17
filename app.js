@@ -99,7 +99,8 @@ document.addEventListener('DOMContentLoaded', function() {
             image_url: e.target.querySelector(".myimageurl").value,
             location: e.target.querySelector(".artistLocation").value,
             upcoming_concerts: [e.target.querySelector(".upcomingConcerts").value],
-            recent_concerts:[e.target.querySelector(".recentConcerts").value]
+            recent_concerts:[e.target.querySelector(".recentConcerts").value],
+            rating:e.target.querySelector(".rating").value,
         } 
         postMyArtist(artistObj)
     }
@@ -116,11 +117,23 @@ document.addEventListener('DOMContentLoaded', function() {
         .then((data)=> alert('Your data has been received and we are verifying the availability of the event'))
         .catch((error) => console.error('Error',error))
     }
-
+   
+    const commentHandler = document.querySelector('.commentHandler')
+    commentHandler.addEventListener('submit', function(e) {
+        e.preventDefault()
+        const artistHolder = e.target.querySelector(".artistNameComment").value
+        
+        const comment= e.target.querySelector('#comment').value
+        
+        const commentHolder = document.querySelector(".commentLog")
+        
+        const commentParagraph = document.createElement('p')
+        commentParagraph.classList.add('parHolder')
+        commentParagraph.textContent = `${artistHolder}: ${comment}`
+        commentHolder.appendChild(commentParagraph)
+        commentHandler.appendChild(commentHolder)
+        
     
-    
-    //handle post
-    
-
+    })
 
 })
