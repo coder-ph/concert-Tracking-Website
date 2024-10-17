@@ -195,7 +195,9 @@ img.artist-image{
 }
 
 .recent-concerts{
+    position: absolute;
     padding-top: 20px;
+
 }
 
 .comment{
@@ -209,10 +211,9 @@ img.artist-image{
     font-weight: bold;
 }
 .comment h4{
-    
     color: white;
     font-family: optima;
-    font-size: 55px;
+    font-size: 35px;
     font-weight: bold;
 }
 
@@ -276,4 +277,38 @@ img.artist-image{
     justify-content: space-between;
     text-align: center;
 }
+.addArtist{
+    
+    position: absolute;
+    top: 1000px;
+    padding-left: 25px;
+}
+.addArtist h2{
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+}
 
+.addArtist .genre{
+    position: absolute;
+    
+}
+.myrecentconcert{
+    width: 250px;
+    padding-left: 35px;
+    padding-bottom: 20px;
+}
+.myrecentconcert label{
+    color:white;
+    font-size: 18px;
+    font-weight: bold;
+}
+#submitbutton{
+    padding: 20px;
+}
+
+.submitbutton{
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
