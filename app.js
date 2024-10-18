@@ -128,8 +128,12 @@ document.addEventListener('DOMContentLoaded', function() {
         const commentHolder = document.querySelector(".commentLog")
         
         const commentParagraph = document.createElement('p')
+        
         commentParagraph.classList.add('parHolder')
         commentParagraph.textContent = `${artistHolder}: ${comment}`
+        commentParagraph.style.color = 'white';
+        commentParagraph.style.backgroundColor = '#33b988' ;
+        commentParagraph.style.borderRadius ='5px'
         commentHolder.appendChild(commentParagraph)
         commentHandler.appendChild(commentHolder)
         
