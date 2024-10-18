@@ -47,6 +47,13 @@ body{
     justify-content: space-between;
     height: 500px;
 }
+#genreFilter{
+    padding: 15px;
+    width: 145px;
+}
+#genreLable{
+    font-size: 18px;
+}
 .headline{
     flex: 1;
     padding-left: 50px;
@@ -68,7 +75,7 @@ body{
 .headline h1{
     position: absolute;
     width: 750px;
-    top: 285px;
+    top: 265px;
     color: white;
     padding-top: 5px;
     font-family: optima;
@@ -130,6 +137,7 @@ img.artist-image{
     border-radius: 25px 25px 25px 25px;
 }
 
+
 #description{
     padding-right: 5px;
     padding-top: 90px;
@@ -171,13 +179,23 @@ img.artist-image{
 
 .form{
     position: absolute;
-    left:-1200px;
-    top: 760px;
+    left:-1300px;
+    top: 745px;
     padding: 8px;
+}
+.form #search{
+    padding: 14px;
 }
 .form button, input{
     border-radius: 7px;
     font-weight: bold;
+    padding: 10px;
+    
+}
+.form button{
+    width: 100px;
+    font-size: 14px;
+    padding: 14px;
 }
 
 .filter-section select{
@@ -202,37 +220,58 @@ img.artist-image{
 
 .comment{
     position: absolute;
-    left: 1300px;
-    top: 1000px;
+    left: 700px;
+    top: 960px;
 }
 .comment #name{
     color:whitesmoke;
     font-size: 25px;
     font-weight: bold;
+    padding: 15px
 }
 .comment h4{
     color: white;
     font-family: optima;
     font-size: 35px;
     font-weight: bold;
+    padding-bottom: 5px;
+    padding-top: 18px;
 }
 
 .comment #comment{
     position: absolute;
+    top: 265px;
     left: 0px;
-    border-radius: 5px;
-    padding: 25px;
+    border-radius: 15px;
+    padding: 35px;
     width: 500px;
+    font-size: 18px;
 }
 
 .comment .submit{
     position: absolute;
-    top: 330px;
+    top: 490px;
     left: 190px;
-    border-radius: +5px;
-    padding: 10px;
-    width: 100px;
+    border-radius: 8px;
+    padding: 13px;
+    width: 140px;
+    font-size: 19px;
+    font-weight: bold;
     
+}
+.commentLog{
+    position: absolute;
+    top: 50px;
+    left: 700px;
+    border:transparent;
+    width: 400px;
+    height: 465px;
+    overflow-y: scroll;
+    border-radius: 5px;
+}
+.commentLog h2{
+    text-align: center;
+    color: white;
 }
 .artist-name h2{
     position: absolute;
@@ -241,7 +280,11 @@ img.artist-image{
     color: white;
     font-size: 45px;
     font-weight: bold;
+    font-family: Helvetica;
+    background: linear-gradient(90deg, rgb(119, 10, 65), rgb(28, 31, 168));
+    border-radius: 7px;
 }
+
 
 .partner{
     position: absolute;
@@ -281,7 +324,7 @@ img.artist-image{
     
     position: absolute;
     top: 1000px;
-    padding-left: 25px;
+    padding-left: 85px;
 }
 .addArtist h2{
     color: white;
@@ -295,13 +338,15 @@ img.artist-image{
 }
 .myrecentconcert{
     width: 250px;
-    padding-left: 35px;
-    padding-bottom: 20px;
+    padding-left: 95px;
+    padding-bottom: 0px;
 }
 .myrecentconcert label{
     color:white;
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 19px;
+}
+.myrecentconcert input{
+    padding: 5px;
 }
 #submitbutton{
     padding: 20px;
@@ -309,6 +354,19 @@ img.artist-image{
 
 .submitbutton{
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 8px;
     font-weight: bold;
+    font-size: 19px;
+    width: 140px;
+}
+.commentHName{
+    position: absolute;
+    top: 155px;
+}
+.artistNameComment{
+    position: absolute;
+    top: 165px;
+    left: 175px;
+    padding: 10px;
+    font-size: 18px;
 }
