@@ -1,7 +1,7 @@
 {
   "artists": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Central Cee",
       "genre": "UK Drill",
       "image_url": "https://i.pinimg.com/564x/3f/f8/91/3ff891fc3f6ae6bbb6c5be1a0048a781.jpg",
@@ -19,7 +19,7 @@
       "rating": 9
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "ArrDee",
       "genre": "UK Drill",
       "image_url": "https://i.pinimg.com/564x/31/ff/43/31ff4363c9200858daa9e844263cf520.jpg",
@@ -37,7 +37,7 @@
       "rating": 7
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Pop Smoke",
       "genre": "UK Drill",
       "image_url": "https://i.pinimg.com/564x/b7/02/d7/b702d72c753baa50fd7b72e3e3532f55.jpg",
@@ -55,7 +55,7 @@
       "rating": 8
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "SZA",
       "genre": "R&B",
       "image_url": "https://i.pinimg.com/564x/88/93/03/88930383eefb0beb77fef6692b140f69.jpg",
@@ -73,7 +73,7 @@
       "rating": 7
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Chris Brown",
       "genre": "R&B",
       "image_url": "https://i.pinimg.com/564x/47/13/91/47139124a9eeb9dbe88e730482ccae21.jpg",
@@ -90,7 +90,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": "11",
       "name": "Cardi B",
       "genre": "Hip Hop",
       "image_url": "https://i.pinimg.com/564x/79/70/ef/7970efb388e41c31b2ae83f020d6b950.jpg",
@@ -108,7 +108,7 @@
       "rating": 7
     },
     {
-      "id": 12,
+      "id": "12",
       "name": "J. Cole",
       "genre": "Hip Hop",
       "image_url": "https://i.pinimg.com/564x/ea/7f/c9/ea7fc97e1fd3162c36bc04456352951b.jpg",
@@ -126,7 +126,7 @@
       "rating": 7.5
     },
     {
-      "id": 13,
+      "id": "13",
       "name": "Kendrick Lamar",
       "genre": "Hip Hop",
       "image_url": "https://i.pinimg.com/564x/25/68/cd/2568cd44a5b29ff2c618ca136b456b06.jpg",
@@ -144,7 +144,7 @@
       "rating": 7
     },
     {
-      "id": 14,
+      "id": "14",
       "name": "H.E.R.",
       "genre": "R&B",
       "image_url": "https://i.pinimg.com/564x/99/bb/9c/99bb9c65704a3a18969de6db4f88c60e.jpg",
@@ -172,6 +172,32 @@
       ],
       "recent_concerts": [
         "2024-10-17T17:22"
+      ]
+    },
+    {
+      "id": "96a4",
+      "name": "phelix",
+      "genre": "sss",
+      "image_url": "https://gemini.google.com/app/1a1ac07c705d042b",
+      "location": "a",
+      "upcoming_concerts": [
+        "2024-10-18T09:52"
+      ],
+      "recent_concerts": [
+        "2024-10-18T09:52"
+      ]
+    },
+    {
+      "id": "e14d",
+      "name": "phelix",
+      "genre": "sss",
+      "image_url": "https://gemini.google.com/app/1a1ac07c705d042b",
+      "location": "a",
+      "upcoming_concerts": [
+        "2024-10-18T12:18"
+      ],
+      "recent_concerts": [
+        "2024-10-18T12:18"
       ]
     }
   ]
