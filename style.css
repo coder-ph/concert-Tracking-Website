@@ -250,7 +250,7 @@ img.artist-image{
 
 .comment .submit{
     position: absolute;
-    top: 490px;
+    top: 545px;
     left: 190px;
     border-radius: 8px;
     padding: 13px;
@@ -285,7 +285,6 @@ img.artist-image{
     border-radius: 7px;
 }
 
-
 .partner{
     position: absolute;
     left:  1000px;
@@ -311,14 +310,23 @@ img.artist-image{
 
 .footer{
     position: absolute;
-    bottom: -1400px;
+    bottom: -1600px;
+    left: 43%;
     display: inline-flex;
+    color: white;
+    justify-content: center;
+    
 }
 
 .footer li{
     display: inline-block;
     justify-content: space-between;
     text-align: center;
+    padding-left: 20px;
+    transition: ease-in-out 0.5s;
+}
+.footer li box-icon:hover{
+    color: black;
 }
 .addArtist{
     
