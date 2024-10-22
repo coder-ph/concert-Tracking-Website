@@ -14,14 +14,19 @@ document.addEventListener('DOMContentLoaded', function() {
                     if (artist.genre === genreValue) {
                         
                         let artistImage = document.createElement('img');
+                        artistImage.classList.add('artist-image');
                         artistImage.src = artist.image_url;
                         artistImage.alt = artist.name;
                         artistImage.width = 300;
                         artistImage.height = 400
-            
-                        artistImage.classList.add('artist-image');
 
                         artistImageContainer.appendChild(artistImage);
+                        artistImage.addEventListener('mouseover',function() {
+                            artistImage.style.transform = 'translate(10px, 40px)'
+                        })
+                        artistImage.addEventListener('mouseout', function () {
+                            artistImage.style.transform = 'translate(0px, 0px)'
+                        })
                     }
                 });
             });
