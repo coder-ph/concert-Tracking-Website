@@ -378,3 +378,11 @@ img.artist-image{
     padding: 10px;
     font-size: 18px;
 }
+
+.artistSample{
+    position: absolute;
+    top: 755px;
+    left: -900px;
+    color: white;
+    font-size:25px;
+}
