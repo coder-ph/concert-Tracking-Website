@@ -140,4 +140,15 @@ document.addEventListener('DOMContentLoaded', function() {
     
     })
 
+    let artistimages= document.querySelectorAll(".artist-image")
+    artistimages.forEach(image =>{
+        image.addEventListener('mouseover', function(){
+            image.style.transform = 'translate(10px, 40px)'
+    
+        })
+        image.addEventListener('mouseout', function(){
+            image.style.transform = 'translate(0px, 0px)'  
+        })
+    })
+    
 })
